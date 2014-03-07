@@ -2,7 +2,7 @@ package = "addweighted"
 version = "scm-1"
 
 source = {
-   url = "git://github.com/jlegrand/addWeighted",
+   url = "git://github.com/jolegrand/AddWeighted",
    branch = "master",
 }
 
@@ -22,6 +22,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["addWeighted.init"] = "addWeighed.lua"
+      ["addWeighted.init"] = "addWeighted.lua"
    }
 }
