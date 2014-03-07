@@ -22,6 +22,6 @@ dependencies = {
 build = {
    type = "builtin",
    modules = {
-      ["addWeighted.init"] = "addWeighted.lua"
+      ["addWeighted.init"] = "init.lua"
    }
 }
